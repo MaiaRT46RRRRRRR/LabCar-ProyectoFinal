@@ -1,0 +1,39 @@
+.op{
+font-family: 'Open Sans', sans-serif;
+}
+.rl{
+  font-family: 'Raleway', sans-serif;
+}
+.menu >li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 13%;
+}
+.titulo{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.portada{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+}
+.img-1{
+    background-image: url(../img/taxi.jpg);
+}
+.img-2{
+    background-image: url(../img/conduce.jpg);
+}
+.mensaje{
+  float: right;
+  background-color: #f7b617;
+  height: 40%;
+  width: 40%;
+}
+.naranja{
+  background-color:#f7b617;
+  height: 400px;
+}
