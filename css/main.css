@@ -4,6 +4,12 @@ font-family: 'Open Sans', sans-serif;
 .rl{
   font-family: 'Raleway', sans-serif;
 }
+.white{
+  color: white;
+}
+.inline-block{
+  display: inline-block;
+}
 .menu >li{
   list-style: none;
   display: inline-block;
@@ -23,17 +29,73 @@ font-family: 'Open Sans', sans-serif;
 }
 .img-1{
     background-image: url(../img/taxi.jpg);
+    color: white;
 }
 .img-2{
     background-image: url(../img/conduce.jpg);
 }
+.img-3{
+  height: 60%;
+  width: 60%;
+}
+.logo-1{
+  display: inline-block;
+  height: auto;
+}
+.padding-4{
+  padding: 4%;
+}
+.padding-2{
+  padding-top: 2%;
+}
 .mensaje{
   float: right;
   background-color: #f7b617;
-  height: 40%;
+  height: 60%;
   width: 40%;
 }
 .naranja{
   background-color:#f7b617;
-  height: 400px;
+  height: 450px;
+}
+.texto-1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+.texto-2{
+  opacity:0.4;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+  z-index: 1;
+}
+.info{
+  z-index: 15;
+  padding: 40% 5%;
+}
+
+.marco{
+  overflow: hidden;
+  border-top: 1px solid white;
+  border-bottom:  1px solid white;
+  border-right:  1px solid white;
+}
+.marquito{
+  border: 1px solid white;
+  height: 80%;
+  width: 80%;
+}
+.form-control{
+  display: inline-block;
+  width: 60%;
+  margin-left: 3%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  /*-web-kit: color-placerholder()*/
+}
+.destino{
+  margin-bottom: 5%;
 }
