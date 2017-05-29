@@ -7,7 +7,7 @@ font-family: 'Open Sans', sans-serif;
 .white{
   color: white;
 }
-.inline-block{
+.inline{
   display: inline-block;
 }
 .menu >li{
@@ -100,6 +100,7 @@ font-family: 'Open Sans', sans-serif;
   border: 1px solid white;
   /*-web-kit: color-placerholder()*/
 }
+
 .destino{
   margin-bottom: 5%;
 }
@@ -119,4 +120,91 @@ font-family: 'Open Sans', sans-serif;
 }
 .rot-2{
   border-top:1px solid white
+}
+.none{
+  display: none;
+}
+.bold{
+  font-size: bold;
+}
+@media (max-width: 767px){
+  .visible-xs-block {
+    display: block !important;
+  }
+  .mensaje{
+    width: 80%;
+  }
+  .marco{
+    border: 1px solid white;
+    padding: 8%;
+    text-align: center;
+  }
+
+  .img-3{
+    height: 80%;
+    width: 80%;
+    margin-left: 15%;
+  }
+  .img-1{
+    height: 400px;
+  }
+  .img-2{
+    height: 250px;
+  }
+  .portada{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .info{
+    padding: 13% 1%;
+  }
+  .margen{
+    padding: 25% 0 !important;
+  }
+  .destino{
+    padding-bottom: 7%;
+  }
+  .form-control{
+    width: 85%;
+  }
+  .gray{
+    padding: 10% 3%;
+  }
+  .lista{
+    padding: 0;
+  }
+  .rot-1{
+    padding: 0 5% 3% 5%;
+  }
+  .spacio{
+    padding-bottom: 5%;
+  }
+  .centreado{
+    padding: 8% 6%;
+  }
+  .logo-1{
+    height: 20px;
+  }
+  .m-sup{
+    margin-top: 10%;
+  }
+  .padding-2{
+    padding-top: 10%;
+  }
+  .logo{
+    height: 20px;
+    width: 60px;
+  }
+  .titulo{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .menu{
+    position: absolute;
+    top: 37px;
+    left: 47px;
+  }
+
 }

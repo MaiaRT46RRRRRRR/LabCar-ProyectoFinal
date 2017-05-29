@@ -13,7 +13,18 @@
   <body>
     <header class="container titulo">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="visible-xs-block text-center">
+          <span class="glyphicon glyphicon-menu-hamburger inline menu"></span>
+          <img img src="img/logo.png" alt="logo" class="logo">
+          <div class="none">
+            <ul>
+              <li>Viaja </li>
+              <li>Conduce</li>
+              <li>Inicia Sesión</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-12 visible-md-block visible-lg-block">
           <div class="col-lg-4">
             <img src="img/logo.png" alt="logo" class="img-responsive">
           </div>
@@ -30,51 +41,60 @@
     <section class="container-fluid portada img-1 texto-1">
       <div class="mensaje rl">
         <div class="container-fluid">
-          <div class="col-lg-12">
-            <h2 class="rl">Disfruta del viaje <br>Eres dueño de tu tiempo</h2>
-          </div>
-          <div class="col-lg-12">
-            <h3 class="inline-block" >Viaja con</h3>
+          <div class="visible-xs-block centreado ">
+            <h2>Comienza a Viajar con</h2>
             <img src="img/logo-blanco.png"  class="img-responsive logo-1"alt="Logo">
+            <button class="btn btn-default bold m-sup" type="submit">Descarga la App</button>
           </div>
-          <div class="col-lg-12">
-              <h5>Registrate</h5>
+          <div class="visible-lg-block visible-md-block">
+            <div class="col-lg-12 col-md-12">
+              <h2 class="rl">Disfruta del viaje <br>Eres dueño de tu tiempo</h2>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <h3 class="inline" >Viaja con</h3>
+              <img src="img/logo-blanco.png"  class="img-responsive logo-1"alt="Logo">
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <h5>Registrate</h5>
+            </div>
+            <div class="col-lg-12 col-md-12 text-center">
+                <div class="col-lg-4 col-md-4"><hr></div>
+                <div class="col-lg-4 col-md-4">O bien</div>
+                <div class="col-lg-4 col-md-4"><hr></div>
+            </div>
+            <button class="btn btn-default" type="submit">Convierte en un conductor</button>
           </div>
-          <div class="col-lg-12 text-center">
-              <div class="col-lg-4"><hr></div>
-              <div class="col-lg-4">O bien</div>
-              <div class="col-lg-4"><hr></div>
-          </div>
-          <button class="btn btn-default" type="submit">Convierte en un conductor</button>
         </div>
       </div>
     </section>
     <section class="container-fluid naranja white padding-2">
       <div class="col-lg-10 col-md-10 marco">
-        <div class="col-lg-6 col-md-6 padding-4">
+        <div class="col-lg-6 col-md-6 col-sm-12  padding-4">
+          <h3 class="visible-xs-block">La nueva App</h3>
           <img src="img/celular.png" class="img-responsive img-3" alt="celular">
         </div>
-        <div class="col-lg-6 col-md-6 padding-4 ">
+        <div class="col-lg-6 col-md-6 padding-4 hidden-xs">
           <h3 class="rl">Descarga la nueva app</h3>
           <p class="op">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
           <p class="op">Con solo tocar un boton, unauto llega justo a su ubicación.Súbete y no te preocupes:tu conductor sabe exactamente a donde ir .</p>
         </div>
       </div>
+      <h4 class="visible-xs-block padding-4">Llega a tu destino aún mas rápido</h4>
     </section>
     <section class="container-fluid portada img-2">
-      <div class=" col-lg-4 col-lg-offset-8 texto-2">
+      <div class="col-xs-12 col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 texto-2">
         <div class="info">
-          <h3 class="rl white">Conduce cunado quieras</h3>
+          <h3 class="rl white">Conduce cuando quieras</h3>
           <h5 class="op white">LabCar es una opcion Flexible para alcanzar tus metas financieras.</h5>
           <button type="button" class="btn btn-default op" name="button white">Convierte en conductor</button>
         </div>
       </div>
     </section>
     <section class="container-fluid naranja">
-      <div class="row padding-4">
-        <div class="col-lg-12 op white">
-          <div class="col-lg-6">
-            <div class="">
+      <div class="row padding-4 margen">
+        <div class="col-lg-12 col-md-12 op white">
+          <div class="col-lg-6 col-md-12">
+            <div>
               <h3>Tarifas</h3>
               <h5 class="destino">Consultar las tarifas LabCar aquí</h5>
               <div class="destino">
@@ -90,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 hidden-xs">
             <div class="marquito">
               <div id="mapa">mapa</div>
             </div>
@@ -101,14 +121,17 @@
     <footer class="gray op white">
       <div class="container padding-3">
         <div class="row">
-          <div class="col-lg-12 rot-1">
+          <div class="col-lg-12 col-md-12 rot-1">
             <img src="img/logo-blanco.png" class=""alt="logo-blanco">
           </div>
-          <div class="col-lg-12">
-            <div class="col-lg-3">
-              <i></i>
+          <div class="col-lg-12 col-md-12">
+            <div class="col-lg-3 col-md-3 col-xs-6 col-xs-offset-6">
+              <i>icones</i>
+              <i>icones</i>
+              <i>icones</i>
+              <i>icones</i>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-xs-6">
               <ul class="lista">
                 <li>Viaja</li>
                 <li>Conduce</li>
@@ -120,7 +143,7 @@
                 <li>Seguridad</li>
               </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 hidden-xs ">
               <ul class="lista">
                 <li>Oportunidades</li>
                 <li>Nuestra historia</li>
@@ -132,11 +155,11 @@
                 <li>Coders</li>
               </ul>
             </div>
-            <div class="col-lg-3 padding-5">
-              <img src="img/app-store.png" alt="app-store" class="img-responsive">
-              <img src="img/google-play.png" alt="google-play" class="img-responsive">
+            <div class="col-lg-3 col-xs-6 padding-5">
+              <img src="img/app-store.png" alt="app-store" class="spacio img-responsive">
+              <img src="img/google-play.png" alt="google-play" class="spacio img-responsive">
             </div>
-            <div class="col-lg-12 text-center rot-2">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center rot-2">
               <h5> © 2017 LabCar technologies Inc</h5>
             </div>
           </div>
