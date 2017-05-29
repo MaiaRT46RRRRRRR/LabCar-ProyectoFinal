@@ -7,6 +7,10 @@ font-family: 'Open Sans', sans-serif;
 .white{
   color: white;
 }
+#map{
+  height: 300px;
+  width: 100%;
+}
 .inline{
   display: inline-block;
 }
@@ -90,6 +94,7 @@ font-family: 'Open Sans', sans-serif;
   border: 1px solid white;
   height: 80%;
   width: 80%;
+  padding: 2%;
 }
 .form-control{
   display: inline-block;
@@ -209,6 +214,7 @@ font-family: 'Open Sans', sans-serif;
     overflow: hidden;
     justify-content: center;
   }
+
   .menu{
     position: absolute;
     top: 37px;
